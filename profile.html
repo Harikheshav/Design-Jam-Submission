@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button {
+  position: relative;
+  background-color: grey;
+  border: none;
+  font-size: 28px;
+  color: white;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: black;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+.bg {
+  /* The image used */
+  background-image: url("bg.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body background="bg.jpg" height="100%" width="100%">
+<center><img src="ppic.jpg"></center>
+<font face="storytella">
+<h2>
+*This is S K Hari Kheshav.I am basically a learner, who tries to specialize in many fields.
+<br>*I have a special fascination on binary{1-0}because I feel the urge that it holds the key to the future though its an age old concept.
+<br>*I am specialised in the bottom- up process of digital electronics and
+can deduce logical circuitry of any functions and simulate them using Simulink Software.
+<br>*I am a beginner in Python and web designing.
+<br>*I have intermediate knowledge in data structures and can handle C++ quite well.
+<br>*I can handle assembly based microprocessors and microcontrollers quite well.
+<br>*I am a keyboard player though I like music theory rather than playing the instrument.
+<br>
+</h2>
+</font>
+</body>
+</html>

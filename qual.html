@@ -1,0 +1,72 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button {
+  position: relative;
+  background-color: grey;
+  border: none;
+  font-size: 28px;
+  color: white;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: black;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("bg.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body background="bg.jpg" height="100%" width="100%">
+<font face="storytella">
+<h1>Qualification:</h1>
+<h2>a.2019 - Present</h2>
+<h3>Sri Venkateswara College Of Engineering, Sriperumbudur - Bachelor Of Engineering</h3>
+<h4>Specialised  in Electronics and Communication Engineering.</h4>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<table border="1"><td>CGPA(Current)):7.2</td></table>
+<h2>b.2016 - 2019</h2>
+<h3>Kola Saraswathi Vaishnav Chetty Senior Secondary School-Higher Secondary </h3>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<table border="1"><td>12th Percentage:79.2%</td></table>
+<h1>c.2007 - 2016</h1>
+<h3>Sindhi Model Senior Secondary School(CBSE)-Middle School</h3>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<table border="1"><td>10th CGPA:8.2</td></table>
+</font>
+</html>
